@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/order"
+        android:scaleType="centerCrop"
+        android:src="@drawable/blur"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/layout_padding"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/logo_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/pacifico"
+                android:gravity="center"
+                android:text="@string/Order"
+                android:textColor="@android:color/white"
+                android:textSize="32sp" />
+
+            <EditText
+                android:id="@+id/name_text_edit"
+                style="@style/Base.Widget.MaterialComponents.TextInputEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/top_margin"
+                android:background="@android:color/holo_blue_dark"
+                android:hint="@string/Razer_Gaming_Mouse"
+                android:inputType="text"
+                android:padding="@dimen/layout_padding"
+                android:textAlignment="center"
+                android:textColorHint="@android:color/white"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:contentDescription="@string/Order"
+                tools:srcCompat="@drawable/cool" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/top_margin"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/layout_padding"
+                android:paddingRight="@dimen/layout_padding">
+
+                <CheckBox
+                    android:id="@+id/ekont_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="43dp"
+                    android:paddingLeft="@dimen/left_padding"
+                    android:text="Ekont"
+                    android:textColor="#03A9F4"
+                    android:textSize="24sp" />
+
+                <CheckBox
+                    android:id="@+id/speedy_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="43dp"
+                    android:paddingLeft="@dimen/left_padding"
+                    android:text="Speedy"
+                    android:textColor="#03A9F4"
+                    android:textSize="24sp" />
+
+                <LinearLayout
+                    android:layout_width="358dp"
+                    android:layout_height="62dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_width="@dimen/btn_size"
+                        android:layout_height="@dimen/btn_size"
+                        android:background="@drawable/round_btn"
+                        android:text="@string/minus"
+                        android:textColor="#03A9F4"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/quantity_text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/count_padding"
+                        android:paddingRight="@dimen/count_padding"
+                        android:text="@string/count"
+                        android:textColor="#03A9F4"
+                        android:textSize="30sp" />
+
+                    <Button
+                        android:layout_width="@dimen/btn_size"
+                        android:layout_height="@dimen/btn_size"
+                        android:background="@drawable/round_btn"
+                        android:text="@string/plus"
+                        android:textColor="#03A9F4"
+                        android:textSize="30sp" />
+
+                </LinearLayout>
+
+                <TextView
+                    style="@style/HeaderTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/top_margin"
+                    android:text="@string/Price"
+                    android:textColor="#03A9F4"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/total_price_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/total_price"
+                    android:textColor="#03A9F4"
+                    android:textSize="30sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+</ScrollView>
+
+    <Button
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@drawable/rect_btn"
+        android:padding="@dimen/count_padding"
+        android:text="@string/make_order"
+        android:textColor="#E18522"
+        android:textSize="18sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="566dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

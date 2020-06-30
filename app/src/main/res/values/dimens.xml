@@ -1,0 +1,11 @@
+<resources>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="layout_padding">8dp</dimen>
+    <dimen name="left_padding">24dp</dimen>
+    <dimen name="btn_size">48dp</dimen>
+    <dimen name="count_padding">8dp</dimen>
+    <dimen name="top_margin">12dp</dimen>
+    <dimen name="bottom_margin">6dp</dimen>
+</resources>

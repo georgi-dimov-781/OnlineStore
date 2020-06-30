@@ -1,0 +1,75 @@
+<resources>
+   
+ 
+    <string name="title_home">Home</string>
+    <string name="title_account">Account</string>  
+    <string name="email">Email...</string>
+    <string name="password">Password...</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="login">Login</string>
+    <string name="i_m_an_admin">I\'m an Admin</string>
+    <string name="i_m_not_an_admin">I\'m not an Admin</string>
+    <string name="or_login_with">or Login with:</string>  
+    <string name="Price">Price</string>
+    <string name="Order">Order</string>
+    <string name="Razer_Gaming_Mouse">Razer Gaming Mouse</string>
+    <string name="total_price">150 Lv</string>
+    <string name="make_order">Make Order</string>
+    <string name="limited_product">Limited Product</string>
+    <string name="description">The new razer mouse is unique. High Technology, Unique Design, Gaming Expirience</string>
+    <string name="like">You like ? Click here to order!</string>
+    <string name="ivan">Ivan Petrov</string>
+    <string name="here">We're here for you 24/7</string> 
+    <string name="please">Please contact us for any problem on:</string>
+    <string name="searchh">Search help articles</string>
+    <string name="tips">Tips &amp; Tricks</string>
+    <string name="categories">Categories</string>
+    <string name="customer_support">Customer Support</string>
+    <string name="order_history">Order History</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="support">Support</string>
+    <string name="logouts">Log Out</string>
+    <string name="email">Email Address</string>
+    <string name="password">Password</string>
+    <string name="explore">Explore our store!</string>
+    <string name="admin">Admin Panel</string>
+    <string name="type">Type: Office</string>
+    <string name="exclusive">Exclusive</string>
+    <string name="dell">Laptop DELL</string>
+    <string name="types">Type: Casual</string>
+    <string name="promotion">Promotion Available</string>
+    <string name="laptopl">Laptop: Lenovo</string>
+    <string name="typess">Type: Gaming</string>
+    <string name="limited">Limited</string>
+    <string name="laptops">Laptop: Samsung</string>
+    <string name="register_now">Register Now</string>
+    <string name="already_have_an_account_login">Already have an Account? Login</string>
+    <string name="continue_without_login">Continue without Login</string>
+    <string name="confirm_password">Confirm Password...</string>
+    <string name="create_account">Create Account</string>
+    <string name="admin_panel">Admin Panel</string>
+    <string name="add_product">Add Product</string>
+    <string name="delete_product">Delete Product</string>
+    <string name="edit_product">Edit Product</string>
+    <string name="check_new_orders">Check New Orders</string>
+    <string name="logout">Logout</string> 
+    <string name="quantity">quantity</string>
+    <string name="minus" translatable="false">-</string>
+    <string name="count" translatable="false">1</string>
+    <string name="plus" translatable="false">+</string>
+    <string name="answer_yes">yes</string>
+    <string name="answer_no">no</string>   
+    <string name="order">send order</string>
+    <string name="order_summary">order summary</string>
+    <string name="name">Name</string>
+    <string name="price">Price</string>
+    <string name="total_price">150 Lv</string>
+    <string name="product_name">Product Name...</string>
+    <string name="product_description">Product Description...</string>
+    <string name="product_price">Product Price...</string>
+    <string name="add_product_new">Add Product</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="back_arrow_image">back_arrow_image</string>   
+
+
+</resources>
